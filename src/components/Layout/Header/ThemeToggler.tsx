@@ -6,7 +6,7 @@ const ThemeToggler = () => {
   return (
     <button
       aria-label="theme toggler"
-      onClick={() => setTheme(theme === "dark" ? "light" : "light")}
+      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
       className="text-body-color flex h-8 w-8 items-center justify-center duration-300 text-white"
     >
       <span>
