@@ -1,24 +1,24 @@
 import { HeaderItem } from "@/types/menu";
 
 export const headerData: HeaderItem[] = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
+  { label: "Главная", href: "/" },
+  { label: "О нас", href: "/about" },
   {
-    label: "Portfolio",
+    label: "Портфолио",
     href: "/portfolio",
     submenu: [
-      { label: "Portfolio list", href: "/portfolio" },
-      { label: "Portfolio details", href: "/portfolio/portfolio-1" },
+      { label: "Список портфолио", href: "/portfolio" },
+      { label: "Детали портфолио", href: "/portfolio/portfolio-1" },
     ],
   },
   {
-    label: "Blog",
+    label: "Блог",
     href: "#",
     submenu: [
-      { label: "Blog list", href: "/blog" },
-      { label: "Blog details", href: "/blog/blog_1" },
+      { label: "Список блога", href: "/blog" },
+      { label: "Детали блога", href: "/blog/blog_1" },
     ],
   },
-  { label: "Contact", href: "/contact" },
-  { label: "Docs", href: "/documentation" },
+  { label: "Контакты", href: "/contact" },
+  { label: "Документация", href: "/documentation" },
 ];
