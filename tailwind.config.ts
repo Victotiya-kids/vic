@@ -79,7 +79,15 @@ const config: Config = {
         '3': '3',
       },
       colors: {
-        primary: '#1358D8',
+        primary: '#3B7DDD',
+        accent: '#F59E0B',
+        success: '#10B981',
+        link: '#6366F1',
+        background: '#FAFAFA',
+        surface: '#FFFFFF',
+        text: '#111827',
+        muted: '#374151',
+        // legacy colors kept for compatibility
         darkprimary: '#054ac8',
         lightPrimary: '#3187F4',
         secondary: '#102C46',

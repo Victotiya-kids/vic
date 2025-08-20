@@ -1,4 +1,4 @@
-import { DM_Sans } from "next/font/google";
+import { Nunito, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
@@ -8,7 +8,8 @@ import Aoscompo from "@/utils/aos";
 import SessionProviderComp from "@/components/nextauth/SessionProvider";
 import { AuthDialogProvider } from "./context/AuthDialogContext";
 import NextTopLoader from "nextjs-toploader";
-const dmsans = DM_Sans({ subsets: ["latin"] });
+const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 
 export default function RootLayout({
@@ -19,8 +20,8 @@ export default function RootLayout({
   session:any
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={dmsans.className}>
+    <html lang="ru" suppressHydrationWarning>
+      <body className={`${nunito.variable} ${inter.variable}`}>
       <AuthDialogProvider>
       <SessionProviderComp session={session}>
         <ThemeProvider
