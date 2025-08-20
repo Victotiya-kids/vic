@@ -13,10 +13,10 @@ const Hero = () => {
                 data-aos-delay='200'
                 data-aos-duration='1000'>
                 <h1 className='text-white relative max-w-473'>
-                  Amazingly fexible, customizable and easy to use
+                  Удивительно гибкий, настраиваемый и простой в использовании
                 </h1>
                 <button className='bg-white text-base font-normal text-primary py-3 px-12 rounded-lg mb-16 mt-8 transition-all duration-0.4s hover:bg-secondary hover:text-white'>
-                  Get Started
+                  Начать
                 </button>
                 <div className='flex items-center mb-8'>
                   <svg
@@ -61,8 +61,7 @@ const Hero = () => {
                   </svg>
                 </div>
                 <p className='text-base font-normal text-white leading-7 pb-11 max-w-408'>
-                  It’s easy to set up and the support experience is the best and
-                  unparalleled comparatively.
+                  Его легко настроить, и поддержка — лучшая и несравнимая.
                 </p>
                 <div className='flex items-center gap-6'>
                   <div>
@@ -122,7 +121,7 @@ const Hero = () => {
                 data-aos-duration='1000'>
                 <form>
                   <h6 className='text-white sm:text-[26px] leading-[2.11rem] text-xl font-bold pb-5'>
-                    Start the project
+                    Начать проект
                   </h6>
                   <div className='grid md:grid-cols-2 grid-cols-1 gap-4 items-center mb-6'>
                     <div className='col-span-1'>
@@ -130,7 +129,7 @@ const Hero = () => {
                         type='text'
                         id='firstName'
                         className='bg-white text-darkmode text-base rounded-lg block w-full p-2.5 dark:bg-darkmode dark:placeholder:gray-400 dark:text-white focus:outline-0 focus:ring-1 focus:ring-secondary dark:focus:ring-white'
-                        placeholder='First name'
+                        placeholder='Имя'
                         required
                       />
                     </div>
@@ -139,7 +138,7 @@ const Hero = () => {
                         type='text'
                         id='lastName'
                         className='bg-white text-darkmode text-base rounded-lg dark:bg-darkmode block w-full p-2.5 dark:placeholder:gray-400 dark:text-white focus:outline-0 focus:ring-1 focus:ring-secondary dark:focus:ring-white'
-                        placeholder='Last name'
+                        placeholder='Фамилия'
                         required
                       />
                     </div>
@@ -148,7 +147,7 @@ const Hero = () => {
                         type='text'
                         id='company'
                         className='bg-white text-darkmode text-base rounded-lg block w-full p-2.5 dark:bg-darkmode dark:placeholder:gray-400 dark:text-white focus:outline-0 focus:ring-1 focus:ring-secondary dark:focus:ring-white'
-                        placeholder='youremail@website.com'
+                        placeholder='ваша@электронная.почта'
                         required
                       />
                     </div>
@@ -157,7 +156,7 @@ const Hero = () => {
                         type='text'
                         id='country'
                         className='bg-white text-darkmode text-base rounded-lg block w-full p-2.5 dark:bg-darkmode dark:placeholder:gray-400 dark:text-white focus:outline-0 focus:ring-1 focus:ring-secondary dark:focus:ring-white'
-                        placeholder='Country'
+                        placeholder='Страна'
                         required
                       />
                     </div>
@@ -166,7 +165,7 @@ const Hero = () => {
                         id='message'
                         rows={4}
                         className='bg-white block p-2.5 w-full text-base text-darkmode rounded-lg dark:bg-darkmode dark:placeholder:gray-400 dark:text-white focus:outline-0 focus:ring-1 focus:ring-secondary dark:focus:ring-white'
-                        placeholder='Write your thoughts here...'></textarea>
+                        placeholder='Напишите свои мысли здесь...'></textarea>
                     </div>
                   </div>
                   <div className='flex items-start mb-6'>
@@ -180,11 +179,11 @@ const Hero = () => {
                       />
                     </div>
                     <label className='ms-2 text-base font-normal text-white dark:text-gray-300'>
-                      I have read and acknowledge the{' '}
+                      Я прочитал и принимаю{' '}
                       <a
                         href='#'
                         className='text-white underline dark:text-white'>
-                        Terms and Conditions
+                        Условия и положения
                       </a>
                       .
                     </label>
@@ -192,7 +191,7 @@ const Hero = () => {
                   <button
                     type='submit'
                     className='text-secondary bg-LightApricot hover:bg-secondary focus:ring-4 hover:text-white focus:outline-hidden focus:ring-blue-300 font-normal rounded-lg text-base w-full px-5 py-2.5 text-center  transition-all duration-0.4s'>
-                    Submit Inquiry
+                    Отправить запрос
                   </button>
                 </form>
               </div>

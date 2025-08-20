@@ -19,7 +19,7 @@ export default function RootLayout({
   session:any
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="ru" suppressHydrationWarning>
       <body className={dmsans.className}>
       <AuthDialogProvider>
       <SessionProviderComp session={session}>
